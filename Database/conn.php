@@ -5,10 +5,6 @@ class database
     private $username = "root";
     private $password = "";
     private $db_name = "safecity_db";
-
-
-
-
     protected function connect()
     {
         try {
@@ -23,8 +19,6 @@ class database
         }
     }
 }
-
-
 class query extends database
 {
     function getData()
